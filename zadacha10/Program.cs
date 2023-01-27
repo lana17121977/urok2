@@ -6,5 +6,5 @@
 
 Console.WriteLine("Введите целое трехзначное число x");
 int x = Convert.ToInt32(Console.ReadLine());
-int x2 = (x %100 - (x %10)) / 10;
+int x2 = (x %100- (x %10)) /10;
 Console.WriteLine("Вторая цифра числа равна " + x2);
